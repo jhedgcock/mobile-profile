@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* ------ Browser reset to zero out margins and padding ------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-weight: normal;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+margin: 0;
+padding: 0;
+}
+/*COLORS------------------
+	#cccccc;*grey*
+	#040303;*black*
+	#F7F3F3 *white*
+	#00cc99;*mint green*
+	#4F5962;*blueish grey*
+--------------------------*/
+
+/* ------ Custom Styles ------- */
+
+/******* Global *******/
+#container {
+	width: 320px;
+	margin: 0 auto;
+	background: #cccccc;/*grey*/
+}
+
+.sections {
+	height: 150px;
+	padding: 10px 5px 10px 5px;
+	
+}
+
+span {
+	font-size: 22px;
+}
+.bold_p, p {
+	font-size: 22px;
+}
+
+p, li {
+	font-family: "Halant", "Palatino Linotype", "Times New Roman", serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+hr {
+	width: 200px;
+}
+
+/* ******* Header ****** */
+header {
+	background: #040303;/*black*/
+	width: 320px;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+}
+
+header h1 {
+	color: #FFFAFA;/*mint green*/
+	font-size: 30px;
+	font-family:"Dancing Script", Helvetica, sans-serif;
+	text-align: center;
+	margin: 6px auto;
+}
+/* ******* Callout ******** */
+#callout {
+	height: 150px;
+	background: #00cc99;
+}
+
+#callout img {
+	position: relative;
+	top: 14px;
+	left: 100px;
+	margin: 0 auto;
+	border: 2px solid #040303;
+	border-radius: 50%;
+}
+
+/* ------ Profile 1 div ------- */
+#profile_1 {
+	background: #4F5962;/*blueish grey*/
+	color: #FEFEFE; /*white*/ 
+	padding: 10px 5px 18px 5px;
+	
+}
+#profile_1 p span {
+	line-height: 105%;
+	text-align: center;
+}
+
+/* ------ Profile 2 div ------- */
+#profile_2 {
+	padding: 10px 5px 15px 5px;
+}
+
+#profile_2 #text_box {
+	width: 200px;
+	background: #00cc99;
+	border: 3px solid #FEFEFE;
+	margin: 20px auto;
+	padding: 8px;
+	box-shadow: 1px 1px 5px #0D0C0C;
+}
+#profile_2 p {
+	color:#FEFEFE;
+	font-weight: bold;
+}
+
+#profile_2 span {
+	color: #4F5962;
+}
+
+/* ------ Profile 3 div ------- */
+#profile_3 {
+		background: #F7F3F3;
+
+}
+#profile_3 p, #profile_3 span {
+	text-align: left;
+	margin-left: 18px;
+	margin-top: 16px;
+}
+#profile_3 span {
+	font-size: 28px;
+}
+
+/* ------ Profile 4 div ------- */
+#profile_4 {
+	background: #4F5962;
+
+}
+#profile_4 p {
+	padding-top: 10px;
+	font-size: 20px;
+}
+#profile_4 span {
+	text-decoration:underline;
+	vertical-align: 4%;
+	
+}
+#profile_4 #drink_align  {
+	text-align: left;
+	margin-left: 48px;
+	margin-top: -10px;
+	
+}
+#profile_4 .bold_p {
+	text-decoration: none;
+	font-size: 18px;
+	
+	
+}
+
+/* ------ Profile 5 div ------- */
+
+#profile_5 ul {
+	list-style-type: none;
+	width: 100%;
+}
+#profile_5 ul {
+	margin: 15px auto;
+}
+#profile_5 li {
+	text-align: left;
+	margin-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/* ------ Transition 5 div ------- */
+
+#transition {
+	background: #F7F3F3;
+	padding-top: 14px;
+}
+#transition p {
+	font-size: 20px;
+	
+}
+#transition a {
+	margin-right: 20px;
+}
+
+#transition span {
+	vertical-align: 2%;
+}
+
+#transition button {
+	height: 50px;
+	width: 100px;
+	border: none;
+	background: #00cc99;
+	position: relative;
+	top: 30px;
+	left: 44px;
+	margin-top: -20px;
+	}
+	
+#transition button p {
+	color: #F7F3F3 ;
+	text-transform: uppercase;
+	font-family:"Open Sans", Arial Black, sans-serif;
+	font-size: 20px;
+}
+
+#transition button:hover {
+	background: #4F5962; 
+}
+
+/*********CLASSES************/
+.spacer
+{
+    width: 100%;
+    height: 50px;
+}
+
+.bold_p {
+	font-family:"Open Sans", Arial Black, sans-serif;
+}
+.color_grn {
+	color:#00cc99;
+	
+}
+
+.color_orng {
+	color: orange;
+	
+}
+
+.color_blue {
+	color:blue;
+}
+
+.color_white {
+	color: #FEFEFE;
+}
+
+
+

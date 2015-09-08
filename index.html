@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Profile 6 Jennifer Hedgcock</title>
+<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Halant:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script>
+//Some touch event handlers to work with the jQuery-Touch-Events plugin from Ben Major
+//Be sure to adapt the href paths as appropriate
+$(function() {
+  $("#nextButton").on("tap", function() {
+	//tap actions here
+	window.location.href = "../profile7/index.html";
+  });
+  
+  $("#prevButton").on("tap", function() {
+	//tap actions here
+	window.location.href = "../profile5/index.html";
+  });
+  
+  $("body").on("swipeleft", function() {
+	//swipe left actions here 
+	window.location.href = "../profile7/index.html"; //to next profile
+  });
+
+  $("body").on("swiperight", function() {
+	//swipe right actions here
+	window.location.href = "../profile5/index.html"; //to previous profile
+  });
+});
+</script>
+
+</head>
+<body>
+	<div id="container">
+    	<header>
+        	<h1>Jennifer Hedgcock</h1>
+        </header>
+        <div class="spacer">&nbsp;</div>
+        <div  id="callout">
+        	<img src="images/avatar1.png" alt="photo of Jennifer">
+        </div>
+        <div class="sections" id="profile_1">
+          <p> <span class="bold_p">I am a web design &#38; development student at Miracosta College.<br></span></p>
+          <hr>
+            <p>I like designing and coding websites.</p>
+            <p>One day soon I hope to be a
+            professional.</p>
+        </div>
+        <div class="sections" id="profile_2">
+        	<div id="text_box">
+            	<p>Want to learn more?<br>
+                <span class="bold_p">Keep scrolling down.</span></p>
+            </div>
+        </div>
+        <div class="sections" id="profile_3">
+        <p><span class="bold_p">I...</span> consider the glass half-full.<br>
+        <span class="bold_p">I...</span> always find a silver lining.<br>
+            <span class="bold_p">I...</span> learn from my mistakes.</p>
+        </div>
+          <div class="sections" id="profile_4">
+          	<p><span class="bold_p" ><span class= "color_grn">My Drink Workflow:</span></span><p>
+            <p class="color_white" id="drink_align"><span class="bold_p">1. Beer</span> for creativity.</p>
+            <p class="color_white" id="drink_align"><span class="bold_p">2. Coffee</span> for productivity.</p>
+          </div>
+          <div class="sections" id="profile_5">
+          	<ul>
+            	<li>My favorite color is <span class="color_grn">green</span>.</li>
+                <li>My favorite game is <span class="color_orng">Scrabble</span>.</li>
+                <li>My favorite day is <span class="color_blue">Saturday</span>.</li>
+            </ul>
+          </div>
+          <div class="sections" id="transition">
+          	<p>Enough about me.<br>
+            <p>Go <span class="bold_p"> discover </span>someone else.
+            </p>
+           	 <a id="prevButton" href="../profile5/index.html"><button name="button"><p>&lt;&lt;Last</p></button></a>
+             <a id="nextButton" href="../profile7/index.html"><button name="button"><p>Next&gt;&gt;</p></button></a>
+          </div>
+    </div><!--Container End-->
+   
+</body>
+</html>
